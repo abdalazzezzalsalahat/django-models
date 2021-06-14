@@ -6,10 +6,10 @@ authors = ["abdalazez <abdalazzezzalsalahat@icloud.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+Django = "^3.2.4"
 pytest = "^6.2.4"
 black = "^21.6b0"
 flake8 = "^3.9.2"
-Django = "^3.2.4"
 
 [tool.poetry.dev-dependencies]
 
