@@ -1,0 +1,7 @@
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+# always ignore the sql files so no one can see the DB
+media

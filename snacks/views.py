@@ -1,8 +1,8 @@
-from django.views.generic import HomeView, ListView, DetailView
+from django.views.generic import TemplateView, ListView, DetailView
 from .models import Snacks
 
 
-class SnacksListView(HomeView):
+class SnacksHomeView(TemplateView):
     template_name = "home.html"
     model = Snacks
 
